@@ -8,7 +8,7 @@ tüm dosyaları indirip, proje dosyasının içerisinde aşağıdaki gibi podfil
 
 - +iOS 13.0
 
-## Podfile
+## Installation & Podfile
 
 ```ruby
 use_frameworks!
@@ -28,15 +28,6 @@ post_install do |installer|
         end
  end
 end
-```
-
-## Installation
-
-TacirlerSDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'TacirlerSDK'
 ```
 
 ## Configuration
